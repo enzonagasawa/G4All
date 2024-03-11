@@ -32,7 +32,7 @@ header{
 }
 
 .container {
-    max-width: 1366px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
@@ -75,7 +75,7 @@ section .container h3 {
 .articles article {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 375px;
     justify-content: space-between;
     margin-inline: 20px;
 }
@@ -147,7 +147,7 @@ body {
     border-color: blue;
     cursor: pointer;
     box-shadow: 1px 1px 1px rgb(0, 0, 0);
-    margin: 0 44px;
+    margin: 0 33px;
     align-items: center;
 }
 
