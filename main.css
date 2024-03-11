@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+header nav li {
+    display: inline;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+header nav li a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    padding: 24px 0;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    margin-top: 0;
+    font-size: 36px;    
+    color: #fff;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+section .container h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: normal;
+}
+
+#novidades .articles p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.articles article img {
+    width: 300px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.articles article {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+
+
+.articles a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.articles a:hover{
+    text-decoration: underline;
+}
+
+
+.container button:hover {
+    background-color: rgb(31, 31, 150);
+    
+}
+
+#novidades {
+        padding-bottom: 10px;
+}
+
+body {
+    background-color: rgb(0, 0, 92);
+}
+
+.articles {
+    background-color:rgb(149, 149, 255) ;
+    padding: 10px;
+}
+
+#categorias .container h2 {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+#categorias .container li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#categorias .container li {
+    display: inline-block;
+
+}
+
+#categorias .container .button-categorias {
+    font-size: 27px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 250px;
+    width: 100%;
+    background-image: linear-gradient(to right, blue, rgb(42, 134, 255));
+    border-color: blue;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin: 0 44px;
+    align-items: center;
+}
+
+#categorias h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+#categorias .container button:hover {
+        background-image: linear-gradient(to right, blue, rgb(69, 150, 255));
+}
+
+
+#jogos-promoção .container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+#jogos-promoção .container  img {
+    width: 300px;
+}
+
+.section-jogos-promoção  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-jogos-promoção {
+    background-color: rgb(149, 149, 255) ;
+    padding: 20px;
+}
+
+.section-jogos-promoção .article-50 {
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+} 
+
+.section-jogos-promoção del {
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+    padding: 6px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.section-jogos-promoção p {
+    color: rgb(0, 173, 0);
+    font-size: 15px;
+    padding: 6px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.section-jogos-promoção .barra-de-desconto {
+    display: flex;
+    margin-left: 7px;
+}
+
+.barra-grey-desconto {
+    background-color: rgb(85, 85, 85);
+    display: flex;
+}
+
+#Quem-somos h2 {
+    margin-bottom: 10px;
+}
+
+
+.section-quem-somos p {
+    font-size: 25px;
+    color: #fff;
+    margin-right:30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.section-sugestão p {
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-sugestão form input,
+textarea,
+.formulario-button {
+    width: 350px;
+    margin: 5px;
+    padding: 6px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.section-sugestão {
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+.section-sugestão form textarea{
+    resize: none;
+    height: 100px;
+}
+
+.formulario-button:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+.section-quem-somos {
+    display:flex;
+    justify-content: space-between;}
+
+.footer {
+    background-color:rgb(39, 39, 39);
+    color:#fff;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+
+}
+
+.footer  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer h3 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+
+}
+
+.footer .nos-acompanhe-block img,
+.nos-acompanhe-block {
+    height: 30px;
+    display: flex;
+    margin-left: 20px;
+}
+
